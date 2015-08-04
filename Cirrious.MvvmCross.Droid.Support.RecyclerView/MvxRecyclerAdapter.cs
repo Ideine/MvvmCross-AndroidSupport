@@ -127,7 +127,7 @@ namespace Cirrious.MvvmCross.Droid.Support.RecyclerView
 
         public override Android.Support.V7.Widget.RecyclerView.ViewHolder OnCreateViewHolder(ViewGroup parent, int viewType)
         {
-            var itemBindingContext = new MvxAndroidBindingContext(parent.Context, _bindingContext.LayoutInflaterHolder);
+            var itemBindingContext = new MvxAndroidBindingContext(parent.Context, _bindingContext.LayoutInflater);
 
             return new MvxRecyclerViewHolder(InflateViewForHolder(parent, viewType, itemBindingContext), itemBindingContext)
             {
