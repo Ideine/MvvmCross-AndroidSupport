@@ -200,3 +200,4 @@ FakesAssemblies/
 nuspec/nuget.exe
 **/Resource.designer.cs
 *.orig
+.DS_Store
